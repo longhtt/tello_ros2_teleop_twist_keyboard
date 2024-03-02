@@ -1,6 +1,8 @@
 # tello_ros2_teleop_twist_keyboard
 a custom Keyboard Teleoperation for ROS with the tello drone 
 
+## Tello driver
+Go to this link https://github.com/longhtt/tello_ros2_driver, follow the Install process and run it before running this package
 
 ## Run
 
