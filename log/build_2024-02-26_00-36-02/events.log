@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000422] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.000779] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[0.099787] (-) TimerEvent: {}
+[0.201072] (-) TimerEvent: {}
+[0.302228] (-) TimerEvent: {}
+[0.402548] (-) TimerEvent: {}
+[0.503294] (-) TimerEvent: {}
+[0.603753] (-) TimerEvent: {}
+[0.704206] (-) TimerEvent: {}
+[0.804485] (-) TimerEvent: {}
+[0.905097] (-) TimerEvent: {}
+[1.005574] (-) TimerEvent: {}
+[1.106716] (-) TimerEvent: {}
+[1.207405] (-) TimerEvent: {}
+[1.308523] (-) TimerEvent: {}
+[1.408984] (-) TimerEvent: {}
+[1.510147] (-) TimerEvent: {}
+[1.610397] (-) TimerEvent: {}
+[1.710698] (-) TimerEvent: {}
+[1.751144] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/teleop_twist_keyboard', 'build', '--build-base', '/home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/build', 'install', '--record', '/home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/install.log', '--single-version-externally-managed'], 'cwd': '/home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'long', 'SSH_AGENT_PID': '1487', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/long/tello_ros_ws/install/tello_gazebo/lib:/home/long/tello_ros_ws/install/tello_driver/lib:/home/long/tello_ros_ws/install/tello_msgs/lib:/home/long/tello_ros_ws/install/fiducial_vlam/lib:/home/long/tello_ros_ws/install/fiducial_vlam_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/long', 'OLDPWD': '/home/long/tello_teleop_twist_keyboard', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1302', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/long/tello_ros_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'long', 'JOURNAL_STREAM': '8:43588', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'long', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/home/long/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/long-HP-Spectre-x360-Convertible-13-ac0XX:@/tmp/.ICE-unix/1525,unix/long-HP-Spectre-x360-Convertible-13-ac0XX:/tmp/.ICE-unix/1525', 'INVOCATION_ID': 'a1ba5632fa82491e8ec3b46b4d9eaa11', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3fb5293f_9252_491b_bfdd_e5161f59fc86', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/long/tello_ros_ws/install/tello_gazebo:/home/long/tello_ros_ws/install/tello_driver:/home/long/tello_ros_ws/install/tello_msgs:/home/long/tello_ros_ws/install/tello_description:/home/long/tello_ros_ws/install/fiducial_vlam:/home/long/tello_ros_ws/install/ros2_shared:/home/long/tello_ros_ws/install/fiducial_vlam_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/prefix_override:/home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/lib/python3.8/site-packages:/home/long/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages:/home/long/tello_ros_ws/install/fiducial_vlam_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/long/tello_ros_ws/install/tello_gazebo:/home/long/tello_ros_ws/install/tello_driver:/home/long/tello_ros_ws/install/tello_msgs:/home/long/tello_ros_ws/install/tello_description:/home/long/tello_ros_ws/install/fiducial_vlam:/home/long/tello_ros_ws/install/ros2_shared:/home/long/tello_ros_ws/install/fiducial_vlam_msgs'}, 'shell': False}
+[1.810839] (-) TimerEvent: {}
+[1.911191] (-) TimerEvent: {}
+[1.982897] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[1.983467] (teleop_twist_keyboard) StdoutLine: {'line': b'creating build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info\n'}
+[1.983726] (teleop_twist_keyboard) StdoutLine: {'line': b'writing build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[1.983967] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[1.984122] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[1.984269] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt\n'}
+[1.984343] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[1.987005] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file 'build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[2.011309] (-) TimerEvent: {}
+[2.022396] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file 'build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[2.023188] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file 'build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[2.023375] (teleop_twist_keyboard) StdoutLine: {'line': b'running build\n'}
+[2.023460] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[2.023618] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/build\n'}
+[2.023732] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/build/lib\n'}
+[2.023841] (teleop_twist_keyboard) StdoutLine: {'line': b'copying teleop_twist_keyboard.py -> /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/build/lib\n'}
+[2.023973] (teleop_twist_keyboard) StdoutLine: {'line': b'running install\n'}
+[2.024885] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[2.026474] (teleop_twist_keyboard) StdoutLine: {'line': b'copying /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/lib/python3.8/site-packages\n'}
+[2.026925] (teleop_twist_keyboard) StdoutLine: {'line': b'byte-compiling /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-38.pyc\n'}
+[2.029448] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[2.030131] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/share/ament_index\n'}
+[2.030418] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/share/ament_index/resource_index\n'}
+[2.030508] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[2.030618] (teleop_twist_keyboard) StdoutLine: {'line': b'copying resource/teleop_twist_keyboard -> /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[2.030778] (teleop_twist_keyboard) StdoutLine: {'line': b'copying package.xml -> /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/share/teleop_twist_keyboard\n'}
+[2.030884] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.032673] (teleop_twist_keyboard) StdoutLine: {'line': b'Copying build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop_twist_keyboard-2.3.2-py3.8.egg-info\n'}
+[2.033602] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[2.052945] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[2.053200] (teleop_twist_keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/install.log'\n"}
+[2.078352] (teleop_twist_keyboard) CommandEnded: {'returncode': 0}
+[2.112588] (-) TimerEvent: {}
+[2.212881] (-) TimerEvent: {}
+[2.313749] (-) TimerEvent: {}
+[2.414876] (-) TimerEvent: {}
+[2.438740] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 0}
+[2.439474] (-) EventReactorShutdown: {}

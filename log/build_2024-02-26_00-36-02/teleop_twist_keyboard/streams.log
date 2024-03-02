@@ -1,0 +1,32 @@
+[1.755s] Invoking command in '/home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard': PYTHONPATH=/home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/prefix_override:/home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/teleop_twist_keyboard build --build-base /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/build install --record /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/install.log --single-version-externally-managed
+[1.982s] running egg_info
+[1.983s] creating build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info
+[1.983s] writing build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[1.983s] writing dependency_links to build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[1.983s] writing entry points to build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[1.983s] writing requirements to build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[1.983s] writing top-level names to build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[1.986s] writing manifest file 'build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[2.021s] reading manifest file 'build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[2.022s] writing manifest file 'build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[2.022s] running build
+[2.023s] running build_py
+[2.023s] creating /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/build
+[2.023s] creating /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/build/lib
+[2.023s] copying teleop_twist_keyboard.py -> /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/build/lib
+[2.023s] running install
+[2.024s] running install_lib
+[2.026s] copying /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/lib/python3.8/site-packages
+[2.026s] byte-compiling /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-38.pyc
+[2.029s] running install_data
+[2.029s] creating /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/share/ament_index
+[2.029s] creating /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/share/ament_index/resource_index
+[2.030s] creating /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[2.030s] copying resource/teleop_twist_keyboard -> /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[2.030s] copying package.xml -> /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/share/teleop_twist_keyboard
+[2.030s] running install_egg_info
+[2.032s] Copying build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop_twist_keyboard-2.3.2-py3.8.egg-info
+[2.033s] running install_scripts
+[2.052s] Installing teleop_twist_keyboard script to /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[2.052s] writing list of installed files to '/home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/install.log'
+[2.078s] Invoked command in '/home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/prefix_override:/home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/teleop_twist_keyboard build --build-base /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/build install --record /home/long/tello_teleop_twist_keyboard/teleop_twist_keyboard/build/teleop_twist_keyboard/install.log --single-version-externally-managed
