@@ -1,5 +1,6 @@
-# teleop_twist_keyboard
-Generic Keyboard Teleoperation for ROS
+# tello_ros2_teleop_twist_keyboard
+a custom Keyboard Teleoperation for ROS with the tello drone 
+
 
 ## Run
 
@@ -37,6 +38,14 @@ anything else : stop
 q/z : increase/decrease max speeds by 10%
 w/x : increase/decrease only linear speed by 10%
 e/c : increase/decrease only angular speed by 10%
+
+1: takeoff
+2: land
+3: emergency
+4: flip left
+5: flip right
+6: flip front
+7: flip back
 
 CTRL-C to quit
 ```
